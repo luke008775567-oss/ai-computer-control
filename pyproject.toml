@@ -1,0 +1,6 @@
+[project]
+name = "ai-computer-control"
+version = "0.1.0"
+description = "Safe, allowlisted macOS computer-control MCP server"
+requires-python = ">=3.10"
+dependencies = ["mcp[cli]>=2,<3", "pyautogui>=0.9.54,<1", "Pillow>=10,<13"]
